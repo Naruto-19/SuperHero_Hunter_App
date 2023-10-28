@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=PT+Sans:ital,wght@1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=PT+Sans:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=PT+Sans:ital,wght@1,700&display=swap');
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    background-image: url('https://wallpaperaccess.com/full/1680387.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0%;
+    margin: 0%;
+    overflow: scroll;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+nav {
+    display: flex;
+    color: aliceblue;
+    background: transparent;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1%;
+    width: 100%;
+   
+
+}
+nav span {
+    font-size: 1.3rem;
+    margin-right: 2%;
+    color: black;
+    font-weight: 600;
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav span a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+   
+}
+nav span a:hover{
+   color: blue;
+}
+.about-sec{
+    height: 100vh;
+ 
+    display: flex;
+    padding: 1%;
+   
+    align-items: center;
+    flex-direction: column;
+}
+#title{
+    background: rgba(44, 2, 254, 0.525);
+    background: linear-gradient(90deg, rgba(93, 0, 255, 0.53) 0%, rgba(45, 13, 255, 0.53) 52%, rgba(60, 0, 255, 0.53) 100%);
+    width: 70%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;    
+
+}
+.data-container{
+    margin-top: 1%;
+    height: 98%;
+    padding: 1%;
+ 
+
+}
+#info{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+#img-cont{
+    height: 70%;
+    width: 30%;
+    box-shadow: 0px 7px 50px 10px  rgba(40, 7, 189, 0.647);
+}
+#img-cont:hover{
+    box-shadow: 0px 7px 50px 10px  rgb(252, 252, 253);
+}
+#details{
+    /* border: 2px solid red; */
+    width: 40%;
+    margin-left: 5%;
+    height: min-content;
+    padding: 2%;
+    font-size: 1.3rem;
+    background: rgb(2, 2, 2);
+    background: linear-gradient(90deg, rgba(45, 8, 255, 0.832) 0%, rgba(26, 40, 190, 0.718) 50%, rgba(35, 32, 240, 0.583) 100%);
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 0.5px rgb(8, 8, 8);
+}
+#details div{
+    margin: 1%;
+}
+#img-cont img{
+    height: 100%;
+    width: 100%;
+}

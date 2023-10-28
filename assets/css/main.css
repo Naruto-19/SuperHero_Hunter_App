@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=PT+Sans:ital,wght@1,700&display=swap');
+
+
+
+body {
+    background-image: url('https://wallpaperaccess.com/full/1089104.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0%;
+    margin: 0%;
+    overflow: scroll;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.main {
+    /* border: 2px solid red; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main nav {
+   
+    display: flex;
+    color: aliceblue;
+    background: rgb(2, 0, 36);
+    background: transparent;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1%;
+    width: 100%;
+
+}
+
+.main nav span {
+    font-size: 1.3rem;
+    margin-right: 2%;
+    color: black;
+    font-weight: 600;
+}
+.main nav span a{
+  color: aliceblue;
+}
+.main nav span a:hover{
+    color: blue;
+  }
+.section {
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#searchbar {
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#searchbar input {
+    width: 70%;
+    height: 5vh;
+    border-color: aliceblue;
+    border-radius: 20px;
+    color: aliceblue;
+    padding: 1%;
+    border: none;
+    font-size: 1.1rem;
+    background: rgb(9, 29, 255);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.925) 0%, rgba(0, 0, 255, 0.718) 50%, rgb(0, 0, 0) 100%);
+}
+
+input::placeholder {
+    color: aliceblue;
+    opacity: 0.5;
+
+}
+
+#displayHeroSearchResults {
+    border: 2px solid rgb(8, 0, 255);
+    padding-top: 0%;
+    border-bottom: none;
+    height: 100%;
+    overflow: scroll;
+    width: 90%;
+}
+
+.results::-webkit-scrollbar {
+    display: flex;
+}
+
+#search-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#superhero-list {
+    background-color:transparent;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: none;
+    padding: 1%;
+    justify-content: space-evenly;
+}
+
+
+
+.display-cards {
+    background-color: transparent;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 60vh;
+    margin: 2%;
+}
+
+#superhero {
+    background-color: blue;
+    height: 90%;
+}
+
+#info {
+    background-color: rgb(29, 0, 247);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    background: rgb(201, 211, 241);
+    background: linear-gradient(90deg, rgba(201, 211, 241, 0.8323704481792717) 0%, rgba(144, 148, 231, 0.7175245098039216) 50%, rgba(163, 162, 232, 0.5830707282913166) 100%);
+}
+
+#buttons {
+    font-family: 'PT Sans', sans-serif;
+    background: rgba(0, 0, 0, 0.611);
+    background: linear-gradient(90deg, rgba(3, 9, 26, 0.832) 0%, rgba(18, 19, 43, 0.718) 50%, rgba(27, 27, 29, 0.583) 100%);
+    border: transparent;
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1%;
+}
+
+#img-cont {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-cont img {
+    width: 95%;
+    height: 95%;
+}
+
+#buttons button {
+   height: 80%;
+    width: 40%;
+    border-radius: 20px;
+    border: none;
+
+    background: transparent;
+background: linear-gradient(90deg, rgba(13, 0, 255, 0.832) 0%, rgba(106, 72, 255, 0.718) 50%, rgba(76, 3, 195, 0.888) 100%);
+}
+
+#buttons button:hover{
+    box-shadow: 0px 2px 5px 0px  rgb(255, 254, 254);
+}
